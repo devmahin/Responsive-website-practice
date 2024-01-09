@@ -23,3 +23,35 @@
 .day{
     background-color: skyblue;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* container-food */
+.container-food{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+
+.food{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.food img{
+}
+
+@media screen and (max-width: 576px){
+    .container-food{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
